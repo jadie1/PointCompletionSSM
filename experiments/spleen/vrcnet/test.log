@@ -1,0 +1,6 @@
+INFO:root:Length of test dataset:4
+INFO:root:vrcnet's previous weights loaded.
+INFO:root:Testing...
+INFO:root:test [0/1]
+INFO:root:Overview results:
+INFO:root:cd_p: 0.014411 cd_t: 0.000770 f1: 0.375026 

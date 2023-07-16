@@ -1,0 +1,45 @@
+!munch.Munch
+batch_size: 4
+best_model_path: experiments/spleen/vrcnet/best_cd_p_network.pth
+betas: 0.9, 0.999
+dataset: spleen
+device: cuda:0
+distribution_loss: KLD
+early_stop: true
+early_stop_patience: 100
+epoch_interval_to_save: 1
+epoch_interval_to_val: 1
+knn_list: '16'
+latent_dim: 1024
+layers: 1, 1, 1, 1
+load_model: null
+local_folding: true
+loss: cd
+lr: 0.0001
+lr_clip: 1.0e-06
+lr_decay: true
+lr_decay_interval: 400
+lr_decay_rate: 0.7
+lr_step_decay_epochs: null
+lr_step_decay_rates: null
+manual_seed: null
+model_name: vrcnet
+nepoch: 10000
+num_coarse_points: 512
+num_dense_points: 2048
+num_fps: 2048
+num_input_points: 2048
+optimizer: Adam
+pk: 10
+points_label: true
+save_predictions: true
+save_vis: true
+scale_factor: 77.9843978881836
+start_epoch: 0
+step_interval_to_print: 500
+use_mean_feature: false
+varying_constant: 0.01, 0.1, 0.5
+varying_constant_epochs: 50, 200
+weight_decay: 0
+work_dir: experiments/spleen/
+workers: 0

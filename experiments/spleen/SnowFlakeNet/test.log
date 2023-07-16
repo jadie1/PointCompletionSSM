@@ -1,0 +1,6 @@
+INFO:root:Length of test dataset:4
+INFO:root:SnowFlakeNet's previous weights loaded.
+INFO:root:Testing...
+INFO:root:test [0/1]
+INFO:root:Overview results:
+INFO:root:cd_p: 0.018443 cd_t: 0.001144 f1: 0.215480 

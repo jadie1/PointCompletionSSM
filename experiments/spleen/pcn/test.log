@@ -1,0 +1,6 @@
+INFO:root:Length of test dataset:4
+INFO:root:pcn's previous weights loaded.
+INFO:root:Testing...
+INFO:root:test [0/1]
+INFO:root:Overview results:
+INFO:root:cd_p: 0.051464 cd_t: 0.007471 f1: 0.029419 
