@@ -1,0 +1,10 @@
+INFO:root:Length of test dataset:30
+INFO:root:PointAttN's previous weights loaded.
+INFO:root:Testing...
+INFO:root:test [0/7]
+INFO:root:Length of test dataset:30
+INFO:root:PointAttN's previous weights loaded.
+INFO:root:Testing...
+INFO:root:test [0/7]
+INFO:root:Overview results:
+INFO:root:cd_p: 0.013487 cd_t: 0.000682 f1: 0.366215 

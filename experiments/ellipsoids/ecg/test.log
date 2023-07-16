@@ -1,0 +1,6 @@
+INFO:root:Length of test dataset:30
+INFO:root:ecg's previous weights loaded.
+INFO:root:Testing...
+INFO:root:test [0/7]
+INFO:root:Overview results:
+INFO:root:cd_p: 0.014024 cd_t: 0.000573 f1: 0.357929 
